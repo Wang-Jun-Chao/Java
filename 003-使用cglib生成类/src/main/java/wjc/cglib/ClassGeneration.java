@@ -42,9 +42,11 @@ public class ClassGeneration {
         // 获得bean的实体
         Object object = bean.getObject();
 
-        // 通过反射查看所有方法名
+
         Class clazz = object.getClass();
+        // 查看生成的类名
         System.out.println(clazz.getName());
+        // 通过反射查看所有方法名
         Method[] methods = clazz.getDeclaredMethods();
         for (Method method : methods) {
             System.out.println(method.getName());
