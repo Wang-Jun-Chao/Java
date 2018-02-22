@@ -62,7 +62,7 @@ public class ClassGeneration {
             cc.writeFile(path);
 
             // 通过反射创建无参的实例，并调获取em方法
-            //为了防止编译器报错，先用o声明，并一直使用
+            // 为了防止编译器报错，先用o声明，并一直使用
             Object o = Class.forName("wjc.javaassist.bean.Boss").newInstance();
             Method getter = o.getClass().getMethod("getName");
             System.out.println(getter.invoke(o));
