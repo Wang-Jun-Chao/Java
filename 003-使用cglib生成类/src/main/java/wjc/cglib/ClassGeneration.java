@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * <pre>
- *
+ * CGLIB是一个强大的、高性能的代码生成库。其被广泛应用于AOP框架（Spring、dynaop）中，用以提供方法拦截操作。
  * </pre>
  * Author: 王俊超
  * Date: 2018-02-22 09:26
@@ -51,7 +51,5 @@ public class ClassGeneration {
         for (Method method : methods) {
             System.out.println(method.getName());
         }
-
-
     }
 }
