@@ -18,7 +18,7 @@ import java.net.URLDecoder;
 public class ClassGeneration {
     public static void main(String[] args) {
         ClassPool pool = ClassPool.getDefault();
-        CtClass cc = pool.makeClass("wjc.javaassist.bean.Employee");
+        CtClass cc = pool.makeClass("wjc.javaassist.bean.Boss");
 
         try {
             CtField f1 = CtField.make("private int id;", cc);
@@ -42,7 +42,7 @@ public class ClassGeneration {
 
             // 无参构造构造函数
             CtConstructor constructor1 = new CtConstructor(new CtClass[]{}, cc);
-            constructor1.setBody("{$0.id=1; $0.name=\"wjc\";}");
+            constructor1.setBody("{$0.id=1; $0.name=\"wjc\"; $0.age=20;}");
             cc.addConstructor(constructor1);
 
 
@@ -63,7 +63,7 @@ public class ClassGeneration {
 
             // 通过反射创建无参的实例，并调获取em方法
             //为了防止编译器报错，先用o声明，并一直使用
-            Object o = Class.forName("wjc.javaassist.bean.Employee").newInstance();
+            Object o = Class.forName("wjc.javaassist.bean.Boss").newInstance();
             Method getter = o.getClass().getMethod("getName");
             System.out.println(getter.invoke(o));
 
