@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="002-javaassist的用法" />
+        <module name="005-Retry重试机制" />
+        <module name="006-reactor模式" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="002-javaassist的用法" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="005-Retry重试机制" target="1.7" />
+      <module name="006-reactor模式" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
