@@ -2,10 +2,11 @@ package wjc.java.reactor;
 
 /**
  * ACCEPT事件处理器
+ *
  * @author: wangjunchao(王俊超)
  * @time: 2019-07-29 17:12
  **/
-public class AcceptEventHandler extends EventHandler{
+public class AcceptEventHandler extends EventHandler {
     private Selector selector;
 
     public AcceptEventHandler(Selector selector) {

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/005-Retry重试机制/005-Retry重试机制.iml" filepath="$PROJECT_DIR$/005-Retry重试机制/005-Retry重试机制.iml" />
       <module fileurl="file://$PROJECT_DIR$/006-reactor模式/006-reactor模式.iml" filepath="$PROJECT_DIR$/006-reactor模式/006-reactor模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/007-antlr4权威指南/007-antlr4权威指南.iml" filepath="$PROJECT_DIR$/007-antlr4权威指南/007-antlr4权威指南.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
     </modules>
   </component>
