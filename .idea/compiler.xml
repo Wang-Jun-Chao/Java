@@ -6,14 +6,51 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="002-javaassist的用法" />
-        <module name="005-Retry重试机制" />
+        <module name="chapter04-a-quick-tour" />
+        <module name="section01-parsing-comma-separated-values" />
+        <module name="007-antlr4-definitive-guide" />
+        <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" />
+        <module name="chapter01-meet-antrl" />
+        <module name="section04-01-embedding-arbitrary-actions-in-a-grammar" />
+        <module name="section03-building-a-translator-with-a-listener" />
+        <module name="section02-parsing-json" />
         <module name="006-reactor模式" />
+        <module name="section05-02-rewriting-the-input-stream" />
+        <module name="section04-parsing-cymbol" />
+        <module name="section04-02-altering-the-parse-with-semantic-predicates" />
+        <module name="section03-parsing-dot" />
+        <module name="002-javaassist的用法" />
+        <module name="chapter03-a-starter-antrl-project" />
+        <module name="section04-parsing-r" />
+        <module name="005-Retry重试机制" />
+        <module name="section01-matching-an-arithmetic-expression-language" />
+      </profile>
+      <profile name="Annotation profile for 007-antlr4-definitive-guide" enabled="true">
+        <sourceOutputDir name="section01-matching-an-arithmetic-expression-language/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="section01-matching-an-arithmetic-expression-language/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="007-antlr4-definitive-guide (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="005-Retry重试机制" target="1.7" />
       <module name="006-reactor模式" target="1.8" />
+      <module name="007-antlr4-definitive-guide" target="8" />
+      <module name="007-antlr4-definitive-guide (1)" target="1.5" />
+      <module name="chapter01-meet-antrl" target="1.5" />
+      <module name="chapter03-a-starter-antrl-project" target="1.5" />
+      <module name="chapter04-a-quick-tour" target="1.5" />
+      <module name="section01-matching-an-arithmetic-expression-language" target="8" />
+      <module name="section01-parsing-comma-separated-values" target="8" />
+      <module name="section02-parsing-json" target="8" />
+      <module name="section03-building-a-translator-with-a-listener" target="8" />
+      <module name="section03-parsing-dot" target="8" />
+      <module name="section04-01-embedding-arbitrary-actions-in-a-grammar" target="8" />
+      <module name="section04-02-altering-the-parse-with-semantic-predicates" target="8" />
+      <module name="section04-parsing-cymbol" target="8" />
+      <module name="section04-parsing-r" target="8" />
+      <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" target="8" />
+      <module name="section05-02-rewriting-the-input-stream" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

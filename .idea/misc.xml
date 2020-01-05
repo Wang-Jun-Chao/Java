@@ -8,6 +8,20 @@
       <list>
         <option value="$PROJECT_DIR$/005-Retry重试机制/pom.xml" />
         <option value="$PROJECT_DIR$/006-reactor模式/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4权威指南/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section01-matching-an-arithmetic-expression-language/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section03-building-a-translator-with-a-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section04-01-embedding-arbitrary-actions-in-a-grammar/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section04-02-altering-the-parse-with-semantic-predicates/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section05-01-island-rammars-dealing-with-different-formats-in-the-same-file/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section05-02-rewriting-the-input-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section01-parsing-comma-separated-values/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section02-parsing-json/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section03-parsing-dot/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section04-parsing-cymbol/pom.xml" />
+        <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section04-parsing-r/pom.xml" />
       </list>
     </option>
   </component>

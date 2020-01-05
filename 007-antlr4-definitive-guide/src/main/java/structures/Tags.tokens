@@ -1,0 +1,6 @@
+TAG_START=1
+TEXT=2
+TAG_STOP=3
+TAG_STUFF=4
+'<'=1
+'>'=3

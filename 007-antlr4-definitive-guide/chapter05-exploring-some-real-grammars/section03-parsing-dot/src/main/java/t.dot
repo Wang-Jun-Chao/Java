@@ -1,0 +1,8 @@
+digraph G {
+    rankdir=LR;
+    main [shape=box];
+    main -> f -> g;         // main调用f，f调用g
+    f -> f [style=dotted] ; // f是递归的
+    f -> h;                 // f调用h
+}
+
