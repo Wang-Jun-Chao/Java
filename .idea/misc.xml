@@ -22,8 +22,9 @@
         <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section03-parsing-dot/pom.xml" />
         <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section04-parsing-cymbol/pom.xml" />
         <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section04-parsing-r/pom.xml" />
+        <option value="$PROJECT_DIR$/008-dubbo/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

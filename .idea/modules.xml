@@ -6,11 +6,15 @@
       <module fileurl="file://$PROJECT_DIR$/006-reactor模式/006-reactor模式.iml" filepath="$PROJECT_DIR$/006-reactor模式/006-reactor模式.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/007-antlr4-definitive-guide.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/007-antlr4-definitive-guide.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/007-antlr4-definitive-guide (1).iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/007-antlr4-definitive-guide (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/008-dubbo.iml" filepath="$PROJECT_DIR$/008-dubbo/008-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/api/api.iml" filepath="$PROJECT_DIR$/008-dubbo/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter01-meet-antrl/chapter01-meet-antrl.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter01-meet-antrl/chapter01-meet-antrl.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter03-a-starter-antrl-project/chapter03-a-starter-antrl-project.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter03-a-starter-antrl-project/chapter03-a-starter-antrl-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/chapter04-a-quick-tour.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/chapter04-a-quick-tour.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/chapter05-exploring-some-real-grammars.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/chapter05-exploring-some-real-grammars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/client/client.iml" filepath="$PROJECT_DIR$/008-dubbo/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/register/register.iml" filepath="$PROJECT_DIR$/008-dubbo/register/register.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section01-matching-an-arithmetic-expression-language/section01-matching-an-arithmetic-expression-language.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section01-matching-an-arithmetic-expression-language/section01-matching-an-arithmetic-expression-language.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section01-parsing-comma-separated-values/section01-parsing-comma-separated-values.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section01-parsing-comma-separated-values/section01-parsing-comma-separated-values.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section02-parsing-json/section02-parsing-json.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section02-parsing-json/section02-parsing-json.iml" />
@@ -22,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section04-parsing-r/section04-parsing-r.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section04-parsing-r/section04-parsing-r.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section05-01-island-rammars-dealing-with-different-formats-in-the-same-file/section05-01-island-rammars-dealing-with-different-formats-in-the-same-file.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section05-01-island-rammars-dealing-with-different-formats-in-the-same-file/section05-01-island-rammars-dealing-with-different-formats-in-the-same-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section05-02-rewriting-the-input-stream/section05-02-rewriting-the-input-stream.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section05-02-rewriting-the-input-stream/section05-02-rewriting-the-input-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/server/server.iml" filepath="$PROJECT_DIR$/008-dubbo/server/server.iml" />
     </modules>
   </component>
 </project>
