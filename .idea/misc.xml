@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section04-parsing-cymbol/pom.xml" />
         <option value="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section04-parsing-r/pom.xml" />
         <option value="$PROJECT_DIR$/008-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/009-rxjava/pom.xml" />
       </list>
     </option>
   </component>

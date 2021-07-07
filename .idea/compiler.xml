@@ -42,6 +42,7 @@
       <module name="007-antlr4-definitive-guide" target="8" />
       <module name="007-antlr4-definitive-guide (1)" target="1.5" />
       <module name="008-dubbo" target="1.8" />
+      <module name="009-rxjava" target="1.8" />
       <module name="api" target="1.8" />
       <module name="chapter01-meet-antrl" target="1.8" />
       <module name="chapter03-a-starter-antrl-project" target="1.8" />
