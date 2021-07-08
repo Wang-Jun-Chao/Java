@@ -26,9 +26,38 @@ RabbitMQ 常用的交换器类型有 fanout、direct、topic、headers 这四种
   - BindingKey RoutingKey 样也是点号"."分隔的字符串
   - BindingKey 中可以存在两种特殊字符串"*"和"#"，用于做模糊匹配，其中"#"用于匹配 个单词，吁"用于匹配多规格单词(可以是零个)。
 
+# 死信队列
 
+[【RabbitMQ】一文带你搞定RabbitMQ死信队列 - 云+社区 - 腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1463065)
 
+## 死信队列是什么
 
+死信，在官网中对应的单词为“Dead Letter”，可以看出翻译确实非常的简单粗暴。那么死信是个什么东西呢？
 
+“死信”是RabbitMQ中的一种消息机制，当你在消费消息时，如果队列里的消息出现以下情况：
 
+1. 消息被否定确认，使用 `channel.basicNack` 或 `channel.basicReject` ，并且此时`requeue` 属性被设置为`false`。
+2. 消息在队列的存活时间超过设置的TTL时间。
+3. 消息队列的消息数量已经超过最大队列长度。
 
+那么该消息将成为“死信”。
+
+“死信”消息会被RabbitMQ进行特殊处理，如果配置了死信队列信息，那么该消息将会被丢进死信队列中，如果没有配置，则该消息将会被丢弃。
+
+# 延迟队列
+
+[rabbitMQ实现延迟消息队列 - 简书 (jianshu.com)](https://www.jianshu.com/p/7e5f0742c8e3)
+
+# RabbitMQ消息大小限制，队列长度限制
+
+[(2条消息) RabbitMQ（四）：RabbitMQ消息大小限制，队列长度限制_cuibin1991的专栏-CSDN博客_rabbitmq消息最大多大](https://blog.csdn.net/cuibin1991/article/details/107930479)
+
+在版本3.7中的源码，我们可以看到最大消息大小为2GiB。
+
+在版本3.8开始是512MiB
+
+> 推荐：客户端与RabbitMQ服务端的最大帧是128K，但消息大小却可支持数MB。消息大小不要超过4MB
+
+# 优先队列
+
+[(1条消息) RabbitMQ：队列优先级和消息优先级的介绍和使用_编程学习者的博客-CSDN博客_rabbitmq优先级队列](https://blog.csdn.net/weixin_45492007/article/details/106187727)
