@@ -61,3 +61,8 @@ RabbitMQ 常用的交换器类型有 fanout、direct、topic、headers 这四种
 # 优先队列
 
 [(1条消息) RabbitMQ：队列优先级和消息优先级的介绍和使用_编程学习者的博客-CSDN博客_rabbitmq优先级队列](https://blog.csdn.net/weixin_45492007/article/details/106187727)
+
+# 消息确认和重试
+
+[(1条消息) RabbitMQ的消息确认机制，消息重试机制_ROAOR1的博客-CSDN博客_rabbitmq消息重试机制](https://blog.csdn.net/ROAOR1/article/details/105071466)
+
