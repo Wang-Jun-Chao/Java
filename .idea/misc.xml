@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/008-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/009-rxjava/pom.xml" />
         <option value="$PROJECT_DIR$/004-如何使永久（元数据）区发生溢出/pom.xml" />
+        <option value="$PROJECT_DIR$/010-spring-security/pom.xml" />
       </list>
     </option>
   </component>

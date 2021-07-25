@@ -66,3 +66,51 @@ RabbitMQ 常用的交换器类型有 fanout、direct、topic、headers 这四种
 
 [(1条消息) RabbitMQ的消息确认机制，消息重试机制_ROAOR1的博客-CSDN博客_rabbitmq消息重试机制](https://blog.csdn.net/ROAOR1/article/details/105071466)
 
+
+
+# RabbitMQ升级
+
+RabbitMQ两种主要的升级场景：
+
+1. 原地升级：每个节点都在磁盘数据上升级
+2. 蓝绿升级：创建新群集并将现有数据迁移到它
+
+![image-20210721063721763](C:\Users\Administrator.AEAOC-610072222\AppData\Roaming\Typora\typora-user-images\image-20210721063721763.png)
+
+## 原地升级的两种情况
+
+- 滚动升级：只有在兼容的RabbitMQ和Erlang版本之间才有可能滚动升级
+- 全停机升级：整个集群停机升级
+
+![image-20210721063921821](C:\Users\Administrator.AEAOC-610072222\AppData\Roaming\Typora\typora-user-images\image-20210721063921821.png)
+
+原地升级需要全停机：
+
+![image-20210721064556778](C:\Users\Administrator.AEAOC-610072222\AppData\Roaming\Typora\typora-user-images\image-20210721064556778.png)
+
+## 蓝绿升级
+
+Blue-Green蓝绿部署是一个升级策略，它是基于在当前集群(blue)旁边创建第二个集群（green）的想法。当迁移结束后，应用程序会切换到”green”集群，”blue”集群会关闭，为了简化切换，可以使用 federated queues把已排队的消息从“blue”传递高”green”集群。
+
+
+
+## A+ RabbitMQ升级方案
+
+滚动升级PASS——A+版本是3.6.X无法滚动升级到3.7.X
+
+蓝绿升级——需要改造客户端代码，会用不少工作量，对运维要求比较高。
+
+在允许少量消息丢失的情况下，可以一选择在系统空闲时切换新集群方式。
+
+
+
+
+
+## 参考文档
+
+RabbitMQ官网：[Upgrading RabbitMQ — RabbitMQ](https://www.rabbitmq.com/upgrade.html#rabbitmq-version-upgradability)
+
+RabbitMQ蓝绿升级：[Upgrading RabbitMQ Using Blue-Green Deployment Strategy — RabbitMQ](https://www.rabbitmq.com/blue-green-upgrade.html)
+
+业内方案蓝绿升级方案：[RabbitMQ 3.6.1 升级至 3.7.9 版本(Windows 升级至Centos) - baidixing - 博客园 (cnblogs.com)](https://www.cnblogs.com/jiagoushi/p/10174296.html)
+

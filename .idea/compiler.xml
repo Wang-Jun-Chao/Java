@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,7 @@
         <module name="chapter01-meet-antrl" />
         <module name="server" />
         <module name="section04-02-altering-the-parse-with-semantic-predicates" />
+        <module name="first-demo" />
         <module name="section02-parsing-json" />
         <module name="chapter04-a-quick-tour" />
         <module name="section05-02-rewriting-the-input-stream" />
@@ -45,11 +47,13 @@
       <module name="007-antlr4-definitive-guide (1)" target="1.5" />
       <module name="008-dubbo" target="1.8" />
       <module name="009-rxjava" target="1.8" />
+      <module name="010-spring-security" target="1.8" />
       <module name="api" target="1.8" />
       <module name="chapter01-meet-antrl" target="1.8" />
       <module name="chapter03-a-starter-antrl-project" target="1.8" />
       <module name="chapter04-a-quick-tour" target="1.8" />
       <module name="client" target="1.8" />
+      <module name="first-demo" target="1.8" />
       <module name="register" target="1.8" />
       <module name="section01-matching-an-arithmetic-expression-language" target="8" />
       <module name="section01-parsing-comma-separated-values" target="8" />
