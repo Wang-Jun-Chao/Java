@@ -44,7 +44,8 @@ public class MyUserDetailsServiceImpl implements UserDetailsService {
             throw new UsernameNotFoundException("user not exist. " + username);
         }
 
-        List<GrantedAuthority> auths = AuthorityUtils.commaSeparatedStringToAuthorityList("role");
+        List<GrantedAuthority> auths = AuthorityUtils.commaSeparatedStringToAuthorityList(
+                "admins,ROLE_sale");
         return new User(users.getUsername(), new BCryptPasswordEncoder().encode(users.getPassword()), auths);
 
     }

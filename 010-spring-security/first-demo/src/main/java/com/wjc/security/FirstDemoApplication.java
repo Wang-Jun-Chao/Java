@@ -1,9 +1,9 @@
 package com.wjc.security;
 
 import org.mybatis.spring.annotation.MapperScan;
-import org.mybatis.spring.annotation.MapperScans;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 
 /**
  * <pre>
@@ -15,6 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Github: https://github.com/wang-jun-chao
  * All Rights Reserved !!!
  */
+@EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 @MapperScan(basePackages = "com.wjc.security.mapper")
 @SpringBootApplication
 public class FirstDemoApplication {
