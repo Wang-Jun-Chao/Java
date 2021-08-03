@@ -7,29 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chapter01-meet-antrl" />
         <module name="server" />
         <module name="section04-02-altering-the-parse-with-semantic-predicates" />
         <module name="first-demo" />
-        <module name="section02-parsing-json" />
         <module name="chapter04-a-quick-tour" />
-        <module name="section05-02-rewriting-the-input-stream" />
         <module name="section01-parsing-comma-separated-values" />
         <module name="section01-matching-an-arithmetic-expression-language" />
-        <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" />
         <module name="section03-parsing-dot" />
-        <module name="section04-parsing-r" />
-        <module name="002-javaassist的用法" />
         <module name="section03-building-a-translator-with-a-listener" />
-        <module name="004-metadata" />
         <module name="section04-01-embedding-arbitrary-actions-in-a-grammar" />
         <module name="client" />
-        <module name="section04-parsing-cymbol" />
         <module name="api" />
         <module name="005-Retry重试机制" />
         <module name="007-antlr4-definitive-guide" />
-        <module name="006-reactor模式" />
         <module name="chapter03-a-starter-antrl-project" />
+        <module name="chapter01-meet-antrl" />
+        <module name="section02-parsing-json" />
+        <module name="section05-02-rewriting-the-input-stream" />
+        <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" />
+        <module name="section04-parsing-r" />
+        <module name="002-javaassist的用法" />
+        <module name="004-metadata" />
+        <module name="section04-parsing-cymbol" />
+        <module name="006-reactor模式" />
         <module name="register" />
       </profile>
       <profile name="Annotation profile for 007-antlr4-definitive-guide" enabled="true">
@@ -54,6 +54,7 @@
       <module name="chapter04-a-quick-tour" target="1.8" />
       <module name="client" target="1.8" />
       <module name="first-demo" target="1.8" />
+      <module name="mlcache" target="1.8" />
       <module name="register" target="1.8" />
       <module name="section01-matching-an-arithmetic-expression-language" target="8" />
       <module name="section01-parsing-comma-separated-values" target="8" />
