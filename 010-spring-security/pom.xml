@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>first-demo</module>
+        <module>acl_parent</module>
     </modules>
     <packaging>pom</packaging>
 

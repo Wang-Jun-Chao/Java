@@ -13,6 +13,7 @@
         <module name="chapter04-a-quick-tour" />
         <module name="section01-parsing-comma-separated-values" />
         <module name="section01-matching-an-arithmetic-expression-language" />
+        <module name="service_acl" />
         <module name="section03-parsing-dot" />
         <module name="section03-building-a-translator-with-a-listener" />
         <module name="section04-01-embedding-arbitrary-actions-in-a-grammar" />
@@ -24,11 +25,14 @@
         <module name="chapter01-meet-antrl" />
         <module name="section02-parsing-json" />
         <module name="section05-02-rewriting-the-input-stream" />
+        <module name="spring_security" />
         <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" />
         <module name="section04-parsing-r" />
+        <module name="service_base" />
         <module name="002-javaassist的用法" />
         <module name="004-metadata" />
         <module name="section04-parsing-cymbol" />
+        <module name="api_gateway" />
         <module name="006-reactor模式" />
         <module name="register" />
       </profile>
@@ -48,12 +52,16 @@
       <module name="008-dubbo" target="1.8" />
       <module name="009-rxjava" target="1.8" />
       <module name="010-spring-security" target="1.8" />
+      <module name="acl_parent" target="1.8" />
       <module name="api" target="1.8" />
+      <module name="api_gateway" target="1.8" />
       <module name="chapter01-meet-antrl" target="1.8" />
       <module name="chapter03-a-starter-antrl-project" target="1.8" />
       <module name="chapter04-a-quick-tour" target="1.8" />
       <module name="client" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="first-demo" target="1.8" />
+      <module name="infrastructure" target="1.8" />
       <module name="mlcache" target="1.8" />
       <module name="register" target="1.8" />
       <module name="section01-matching-an-arithmetic-expression-language" target="8" />
@@ -68,6 +76,18 @@
       <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" target="8" />
       <module name="section05-02-rewriting-the-input-stream" target="8" />
       <module name="server" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service_acl" target="1.8" />
+      <module name="service_base" target="1.8" />
+      <module name="spring_security" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api_gateway" options="-parameters" />
+      <module name="service_acl" options="-parameters" />
+      <module name="service_base" options="-parameters" />
+      <module name="spring_security" options="-parameters" />
+    </option>
   </component>
 </project>
