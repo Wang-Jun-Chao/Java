@@ -12,6 +12,7 @@
         <module name="first-demo" />
         <module name="chapter04-a-quick-tour" />
         <module name="section01-parsing-comma-separated-values" />
+        <module name="spring-security-oauth2-uaa" />
         <module name="section01-matching-an-arithmetic-expression-language" />
         <module name="service_acl" />
         <module name="section03-parsing-dot" />
@@ -26,6 +27,7 @@
         <module name="section02-parsing-json" />
         <module name="section05-02-rewriting-the-input-stream" />
         <module name="spring_security" />
+        <module name="spring-security-oauth2-order" />
         <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" />
         <module name="section04-parsing-r" />
         <module name="service_base" />
@@ -52,6 +54,7 @@
       <module name="008-dubbo" target="1.8" />
       <module name="009-rxjava" target="1.8" />
       <module name="010-spring-security" target="1.8" />
+      <module name="011-spring-security-oauth2" target="1.8" />
       <module name="acl_parent" target="1.8" />
       <module name="api" target="1.8" />
       <module name="api_gateway" target="1.8" />
@@ -79,6 +82,8 @@
       <module name="service" target="1.8" />
       <module name="service_acl" target="1.8" />
       <module name="service_base" target="1.8" />
+      <module name="spring-security-oauth2-order" target="1.8" />
+      <module name="spring-security-oauth2-uaa" target="1.8" />
       <module name="spring_security" target="1.8" />
     </bytecodeTargetLevel>
   </component>

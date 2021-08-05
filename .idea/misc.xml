@@ -27,6 +27,9 @@
         <option value="$PROJECT_DIR$/004-如何使永久（元数据）区发生溢出/pom.xml" />
         <option value="$PROJECT_DIR$/010-spring-security/pom.xml" />
         <option value="$PROJECT_DIR$/010-spring-security/acl_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/012-spring-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/011-spring-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/011-spring-security-oauth2/pom.xml" />
       </list>
     </option>
   </component>
