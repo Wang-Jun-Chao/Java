@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
-    <artifactId>spring-security-oauth2-distributed</artifactId>
+    <artifactId>spring-security-oauth2-independent-jwt</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -18,8 +18,7 @@
     </properties>
 
     <modules>
-        <module>spring-security-oauth2-distributed-gateway</module>
-        <module>spring-security-oauth2-distributed-uaa</module>
-        <module>spring-security-oauth2-distributed-order</module>
+        <module>spring-security-oauth2-independent-jwt-uaa</module>
+        <module>spring-security-oauth2-independent-jwt-order</module>
     </modules>
 </project>

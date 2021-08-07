@@ -1,4 +1,4 @@
-package wjc.spring.security.oauth2.independent.order.config;
+package wjc.spring.security.oauth2.distributed.jwt.order.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -30,7 +30,6 @@ public class ResouceServerConfig extends ResourceServerConfigurerAdapter {
     public void configure(ResourceServerSecurityConfigurer resources) {
         resources.resourceId(RESOURCE_ID)//资源 id
                 .tokenStore(tokenStore)
-                .tokenServices(tokenService())//验证令牌的服务
                 .stateless(true);
     }
 
@@ -43,18 +42,4 @@ public class ResouceServerConfig extends ResourceServerConfigurerAdapter {
                 .and().csrf().disable()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
     }
-
-    /**
-     * 资源服务令牌解析服务
-     */
-    @Bean
-    public ResourceServerTokenServices tokenService() {
-        // 使用远程服务请求授权服务器校验token,必须指定校验token 的url、client_id，client_secret
-        RemoteTokenServices service = new RemoteTokenServices();
-        service.setCheckTokenEndpointUrl("http://localhost:53020/uaa/oauth/check_token");
-        service.setClientId("c1");
-        service.setClientSecret("secret");
-        return service;
-    }
-
 }

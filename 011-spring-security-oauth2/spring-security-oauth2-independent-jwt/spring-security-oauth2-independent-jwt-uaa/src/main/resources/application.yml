@@ -1,0 +1,45 @@
+debug: true
+server:
+  port: 53020
+  servlet:
+    context-path: /uaa
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  tomcat:
+    remoteip:
+      protocol_header: x-forwarded-proto
+      remote_ip_header: x-forwarded-for
+  forward-headers-strategy: native
+logging:
+  level:
+    springframework:
+      web: info
+    root: debug
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info,env
+spring:
+  application:
+    name: uaa-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.241.129:3306/spring-security-oauth2?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&tinyInt1isBit=false
+    username: root
+    password: 123456
+  freemarker:
+    charset: UTF-8
+    content-type: text/html
+    enabled: true
+    request-context-attribute: rc
+    suffix: .html
+  main:
+    allow-bean-definition-overriding: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false

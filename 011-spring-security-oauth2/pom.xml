@@ -10,6 +10,7 @@
     <modules>
         <module>spring-security-oauth2-common</module>
         <module>spring-security-oauth2-independent</module>
+        <module>spring-security-oauth2-independent-jwt</module>
         <module>spring-security-oauth2-distributed</module>
     </modules>
     <packaging>pom</packaging>
