@@ -87,7 +87,7 @@ CREATE TABLE `oauth_client_details`
   ROW_FORMAT = Dynamic;
 INSERT INTO `oauth_client_details`
 VALUES ('c1', 'res1',
-        '$2a$10$NlBC84MVb7F95EXYTXwLneXgCca6/GipyWR5NHm8K0203bSQMLpvm', 'ROLE_ADMIN,ROLE_USER,ROLE_API',
+        '$2a$10$NlBC84MVb7F95EXYTXwLneXgCca6/GipyWR5NHm8K0203bSQMLpvm', 'ROLE_ADMIN,ROLE_USER,ROLE_API,ALL',
         'client_credentials,password,authorization_code,implicit,refresh_token', 'http://www.baidu.com',
         NULL, 7200, 259200, NULL, CURRENT_TIMESTAMP, 0, 0, 'false');
 INSERT INTO `oauth_client_details`

@@ -14,8 +14,9 @@ server:
   forward-headers-strategy: native
 logging:
   level:
-    org: trace
-    root: trace
+    springframework:
+      web: info
+    root: debug
 management:
   endpoints:
     web:

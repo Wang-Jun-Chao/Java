@@ -15,6 +15,6 @@ public class GenPasswordTest {
     @Test
     public void testGenPassword() {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        System.out.println(encoder.encode("123"));
+        System.out.println(encoder.encode("secret"));
     }
 }

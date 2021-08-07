@@ -73,7 +73,7 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
                 .resourceIds("res1")//资源列表
                 // 该client允许的授权类型authorization_code,password,refresh_token,implicit,client_credentials
                 .authorizedGrantTypes("authorization_code", "password", "client_credentials", "implicit", "refresh_token")
-                .scopes("all")// 允许的授权范围
+                .scopes("ALL")// 允许的授权范围
                 .autoApprove(false)//false跳转到授权页面
                 //加上验证回调地址
                 .redirectUris("http://www.baidu.com");
