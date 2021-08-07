@@ -30,6 +30,8 @@
         <option value="$PROJECT_DIR$/012-spring-oauth2/pom.xml" />
         <option value="$PROJECT_DIR$/011-spring-oauth2/pom.xml" />
         <option value="$PROJECT_DIR$/011-spring-security-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-independent/spring-security-oauth2-independent-order/pom.xml" />
+        <option value="$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-independent/spring-security-oauth2-indpendent-uaa/pom.xml" />
       </list>
     </option>
   </component>

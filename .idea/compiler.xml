@@ -12,10 +12,11 @@
         <module name="first-demo" />
         <module name="chapter04-a-quick-tour" />
         <module name="section01-parsing-comma-separated-values" />
-        <module name="spring-security-oauth2-uaa" />
         <module name="section01-matching-an-arithmetic-expression-language" />
+        <module name="spring-security-oauth2-independent-order" />
         <module name="service_acl" />
         <module name="section03-parsing-dot" />
+        <module name="spring-security-oauth2-common" />
         <module name="section03-building-a-translator-with-a-listener" />
         <module name="section04-01-embedding-arbitrary-actions-in-a-grammar" />
         <module name="client" />
@@ -27,7 +28,6 @@
         <module name="section02-parsing-json" />
         <module name="section05-02-rewriting-the-input-stream" />
         <module name="spring_security" />
-        <module name="spring-security-oauth2-order" />
         <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" />
         <module name="section04-parsing-r" />
         <module name="service_base" />
@@ -35,6 +35,7 @@
         <module name="004-metadata" />
         <module name="section04-parsing-cymbol" />
         <module name="api_gateway" />
+        <module name="spring-security-oauth2-independent-uaa" />
         <module name="006-reactor模式" />
         <module name="register" />
       </profile>
@@ -46,27 +47,27 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="004-metadata" target="1.8" />
+      <module name="004-metadata" target="1.5" />
       <module name="005-Retry重试机制" target="1.7" />
       <module name="006-reactor模式" target="1.8" />
       <module name="007-antlr4-definitive-guide" target="8" />
       <module name="007-antlr4-definitive-guide (1)" target="1.5" />
-      <module name="008-dubbo" target="1.8" />
-      <module name="009-rxjava" target="1.8" />
-      <module name="010-spring-security" target="1.8" />
+      <module name="008-dubbo" target="1.5" />
+      <module name="009-rxjava" target="1.5" />
+      <module name="010-spring-security" target="8" />
       <module name="011-spring-security-oauth2" target="1.8" />
       <module name="acl_parent" target="1.8" />
-      <module name="api" target="1.8" />
+      <module name="api" target="1.5" />
       <module name="api_gateway" target="1.8" />
-      <module name="chapter01-meet-antrl" target="1.8" />
-      <module name="chapter03-a-starter-antrl-project" target="1.8" />
-      <module name="chapter04-a-quick-tour" target="1.8" />
-      <module name="client" target="1.8" />
+      <module name="chapter01-meet-antrl" target="1.5" />
+      <module name="chapter03-a-starter-antrl-project" target="1.5" />
+      <module name="chapter04-a-quick-tour" target="1.5" />
+      <module name="client" target="1.5" />
       <module name="common" target="1.8" />
-      <module name="first-demo" target="1.8" />
+      <module name="first-demo" target="8" />
       <module name="infrastructure" target="1.8" />
       <module name="mlcache" target="1.8" />
-      <module name="register" target="1.8" />
+      <module name="register" target="1.5" />
       <module name="section01-matching-an-arithmetic-expression-language" target="8" />
       <module name="section01-parsing-comma-separated-values" target="8" />
       <module name="section02-parsing-json" target="8" />
@@ -78,10 +79,16 @@
       <module name="section04-parsing-r" target="8" />
       <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" target="8" />
       <module name="section05-02-rewriting-the-input-stream" target="8" />
-      <module name="server" target="1.8" />
+      <module name="server" target="1.5" />
       <module name="service" target="1.8" />
       <module name="service_acl" target="1.8" />
       <module name="service_base" target="1.8" />
+      <module name="spring-security-oauth2-common" target="1.8" />
+      <module name="spring-security-oauth2-distributed" target="1.8" />
+      <module name="spring-security-oauth2-gateway" target="1.8" />
+      <module name="spring-security-oauth2-independent" target="1.8" />
+      <module name="spring-security-oauth2-independent-order" target="1.8" />
+      <module name="spring-security-oauth2-independent-uaa" target="1.8" />
       <module name="spring-security-oauth2-order" target="1.8" />
       <module name="spring-security-oauth2-uaa" target="1.8" />
       <module name="spring_security" target="1.8" />

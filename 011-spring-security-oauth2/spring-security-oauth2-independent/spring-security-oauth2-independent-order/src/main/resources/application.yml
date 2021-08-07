@@ -1,0 +1,43 @@
+debug: true
+server:
+  port: 53021
+  servlet:
+    context-path: /order
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  tomcat:
+    remoteip:
+      protocol_header: x-forwarded-proto
+      remote_ip_header: x-forwarded-for
+  forward-headers-strategy: native
+
+
+logging:
+  level:
+    org:
+      springframework:
+        web: info
+    root: info
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info,env
+spring:
+  application:
+    name: order-service
+  freemarker:
+    charset: UTF-8
+    content-type: text/html
+    enabled: true
+    request-context-attribute: rc
+    suffix: .html
+  main:
+    allow-bean-definition-overriding: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false

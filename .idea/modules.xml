@@ -11,7 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/008-dubbo.iml" filepath="$PROJECT_DIR$/008-dubbo/008-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/009-rxjava/009-rxjava.iml" filepath="$PROJECT_DIR$/009-rxjava/009-rxjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/010-spring-security.iml" filepath="$PROJECT_DIR$/010-spring-security/010-spring-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/011-spring-oauth2/011-spring-security-oauth2.iml" filepath="$PROJECT_DIR$/011-spring-oauth2/011-spring-security-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/011-spring-security-oauth2.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/011-spring-security-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/acl_parent.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/acl_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/api/api.iml" filepath="$PROJECT_DIR$/008-dubbo/api/api.iml" />
@@ -40,8 +40,11 @@
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/service/service.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/service/service_acl/service_acl.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/service/service_acl/service_acl.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/common/service_base/service_base.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/common/service_base/service_base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-order/spring-security-oauth2-order.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-order/spring-security-oauth2-order.iml" />
-      <module fileurl="file://$PROJECT_DIR$/011-spring-oauth2/spring-oauth2-uaa/spring-security-oauth2-uaa.iml" filepath="$PROJECT_DIR$/011-spring-oauth2/spring-oauth2-uaa/spring-security-oauth2-uaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-common/spring-security-oauth2-common.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-common/spring-security-oauth2-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-distributed/spring-security-oauth2-distributed.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-distributed/spring-security-oauth2-distributed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-independent/spring-security-oauth2-independent.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-independent/spring-security-oauth2-independent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-independent/spring-security-oauth2-independent-order/spring-security-oauth2-independent-order.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-independent/spring-security-oauth2-independent-order/spring-security-oauth2-independent-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-independent/spring-security-oauth2-indpendent-uaa/spring-security-oauth2-independent-uaa.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-independent/spring-security-oauth2-indpendent-uaa/spring-security-oauth2-independent-uaa.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/common/spring_security/spring_security.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/common/spring_security/spring_security.iml" />
     </modules>
   </component>
