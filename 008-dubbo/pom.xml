@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>server</module>
-        <module>client</module>
+        <module>wjc.spring.authorization.server.oauth2.client</module>
         <module>api</module>
         <module>register</module>
     </modules>
@@ -28,7 +28,7 @@
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>client</artifactId>
+                <artifactId>wjc.spring.authorization.server.oauth2.client</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

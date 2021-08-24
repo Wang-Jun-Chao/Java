@@ -7,11 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-security-oauth2-distributed-rsa-order" />
         <module name="server" />
         <module name="section04-02-altering-the-parse-with-semantic-predicates" />
         <module name="first-demo" />
         <module name="chapter04-a-quick-tour" />
+        <module name="spring-security-oauth2-distributed-rsa-gateway" />
+        <module name="oauth2-auth-customer-consent-page-server" />
         <module name="section01-parsing-comma-separated-values" />
+        <module name="spring-security-oauth2-independent-jwt-order" />
+        <module name="spring-security-oauth2-distributed-uaa" />
         <module name="section01-matching-an-arithmetic-expression-language" />
         <module name="spring-security-oauth2-independent-order" />
         <module name="service_acl" />
@@ -21,18 +26,25 @@
         <module name="section04-01-embedding-arbitrary-actions-in-a-grammar" />
         <module name="client" />
         <module name="api" />
+        <module name="oauth2-resource-server" />
         <module name="005-Retry重试机制" />
         <module name="007-antlr4-definitive-guide" />
+        <module name="spring-security-oauth2-independent-jwt-uaa" />
         <module name="chapter03-a-starter-antrl-project" />
         <module name="chapter01-meet-antrl" />
+        <module name="spring-security-oauth2-distributed-order" />
+        <module name="oauth2-client" />
         <module name="section02-parsing-json" />
         <module name="section05-02-rewriting-the-input-stream" />
         <module name="spring_security" />
+        <module name="spring-security-oauth2-distributed-gateway" />
         <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" />
         <module name="section04-parsing-r" />
         <module name="service_base" />
         <module name="002-javaassist的用法" />
+        <module name="spring-security-oauth2-distributed-rsa-uaa" />
         <module name="004-metadata" />
+        <module name="oauth2-auth-server" />
         <module name="section04-parsing-cymbol" />
         <module name="api_gateway" />
         <module name="spring-security-oauth2-independent-uaa" />
@@ -54,6 +66,7 @@
       <module name="007-antlr4-definitive-guide (1)" target="1.5" />
       <module name="008-dubbo" target="1.5" />
       <module name="009-rxjava" target="1.5" />
+      <module name="01-spring-authorization-server" target="1.8" />
       <module name="010-spring-security" target="8" />
       <module name="011-spring-security-oauth2" target="1.8" />
       <module name="acl_parent" target="1.8" />
@@ -67,6 +80,10 @@
       <module name="first-demo" target="8" />
       <module name="infrastructure" target="1.8" />
       <module name="mlcache" target="1.8" />
+      <module name="oauth2-auth-customer-consent-page-server" target="1.8" />
+      <module name="oauth2-auth-server" target="1.8" />
+      <module name="oauth2-client" target="1.8" />
+      <module name="oauth2-resource-server" target="1.8" />
       <module name="register" target="1.5" />
       <module name="section01-matching-an-arithmetic-expression-language" target="8" />
       <module name="section01-parsing-comma-separated-values" target="8" />
@@ -85,12 +102,20 @@
       <module name="service_base" target="1.8" />
       <module name="spring-security-oauth2-common" target="1.8" />
       <module name="spring-security-oauth2-distributed" target="1.8" />
-      <module name="spring-security-oauth2-gateway" target="1.8" />
+      <module name="spring-security-oauth2-distributed-gateway" target="1.8" />
+      <module name="spring-security-oauth2-distributed-order" target="1.8" />
+      <module name="spring-security-oauth2-distributed-rsa" target="1.8" />
+      <module name="spring-security-oauth2-distributed-rsa-gateway" target="1.8" />
+      <module name="spring-security-oauth2-distributed-rsa-order" target="1.8" />
+      <module name="spring-security-oauth2-distributed-rsa-uaa" target="1.8" />
+      <module name="spring-security-oauth2-distributed-uaa" target="1.8" />
       <module name="spring-security-oauth2-independent" target="1.8" />
+      <module name="spring-security-oauth2-independent-jwt" target="1.8" />
+      <module name="spring-security-oauth2-independent-jwt-order" target="1.8" />
+      <module name="spring-security-oauth2-independent-jwt-uaa" target="1.8" />
       <module name="spring-security-oauth2-independent-order" target="1.8" />
       <module name="spring-security-oauth2-independent-uaa" target="1.8" />
-      <module name="spring-security-oauth2-order" target="1.8" />
-      <module name="spring-security-oauth2-uaa" target="1.8" />
+      <module name="spring-security-oauth2-order-distributed" target="1.8" />
       <module name="spring_security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
