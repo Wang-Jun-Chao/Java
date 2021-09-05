@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "wjc.dubbo.s001.helloworld.api";
+option java_outer_classname = "HelloWorldService";
+
+package wjc.dubbo.s001.helloworld.api;
+
+// The demo service definition.
+service DemoService {
+    rpc SayHello (HelloRequest) returns (HelloResponse) {}
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+    string name = 1;
+}
+
+// The response message containing the greetings
+message HelloResponse {
+    string message = 1;
+}

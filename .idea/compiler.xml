@@ -8,48 +8,54 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-security-oauth2-distributed-rsa-order" />
-        <module name="server" />
-        <module name="section04-02-altering-the-parse-with-semantic-predicates" />
-        <module name="first-demo" />
         <module name="chapter04-a-quick-tour" />
         <module name="spring-security-oauth2-distributed-rsa-gateway" />
-        <module name="oauth2-auth-customer-consent-page-server" />
-        <module name="section01-parsing-comma-separated-values" />
         <module name="spring-security-oauth2-independent-jwt-order" />
         <module name="spring-security-oauth2-distributed-uaa" />
         <module name="section01-matching-an-arithmetic-expression-language" />
-        <module name="spring-security-oauth2-independent-order" />
         <module name="service_acl" />
         <module name="section03-parsing-dot" />
         <module name="spring-security-oauth2-common" />
-        <module name="section03-building-a-translator-with-a-listener" />
         <module name="section04-01-embedding-arbitrary-actions-in-a-grammar" />
-        <module name="client" />
-        <module name="api" />
-        <module name="oauth2-resource-server" />
+        <module name="014-mybatis-plus" />
         <module name="005-Retry重试机制" />
         <module name="007-antlr4-definitive-guide" />
-        <module name="spring-security-oauth2-independent-jwt-uaa" />
-        <module name="chapter03-a-starter-antrl-project" />
         <module name="chapter01-meet-antrl" />
-        <module name="spring-security-oauth2-distributed-order" />
-        <module name="oauth2-client" />
         <module name="section02-parsing-json" />
         <module name="section05-02-rewriting-the-input-stream" />
         <module name="spring_security" />
-        <module name="spring-security-oauth2-distributed-gateway" />
+        <module name="001-hello-world-provider" />
+        <module name="000-dubbo-demo-interface" />
         <module name="section05-01-island-rammars-dealing-with-different-formats-in-the-same-file" />
+        <module name="012-vertx" />
+        <module name="001-hello-world-api" />
+        <module name="002-javaassist的用法" />
+        <module name="section04-parsing-cymbol" />
+        <module name="api_gateway" />
+        <module name="section04-02-altering-the-parse-with-semantic-predicates" />
+        <module name="first-demo" />
+        <module name="oauth2-auth-customer-consent-page-server" />
+        <module name="013-ddd" />
+        <module name="custom-dubbo" />
+        <module name="section01-parsing-comma-separated-values" />
+        <module name="spring-security-oauth2-independent-order" />
+        <module name="section03-building-a-translator-with-a-listener" />
+        <module name="dubbo-demo-xml-provider" />
+        <module name="dubbo-demo-xml-consumer" />
+        <module name="oauth2-resource-server" />
+        <module name="spring-security-oauth2-independent-jwt-uaa" />
+        <module name="chapter03-a-starter-antrl-project" />
+        <module name="spring-security-oauth2-distributed-order" />
+        <module name="oauth2-client" />
+        <module name="spring-security-oauth2-distributed-gateway" />
         <module name="section04-parsing-r" />
         <module name="service_base" />
-        <module name="002-javaassist的用法" />
         <module name="spring-security-oauth2-distributed-rsa-uaa" />
         <module name="004-metadata" />
         <module name="oauth2-auth-server" />
-        <module name="section04-parsing-cymbol" />
-        <module name="api_gateway" />
+        <module name="dubbo-demo-xml-provider-backend" />
         <module name="spring-security-oauth2-independent-uaa" />
         <module name="006-reactor模式" />
-        <module name="register" />
       </profile>
       <profile name="Annotation profile for 007-antlr4-definitive-guide" enabled="true">
         <sourceOutputDir name="section01-matching-an-arithmetic-expression-language/target/generated-sources/annotations" />
@@ -59,16 +65,24 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="000-dubbo-demo-interface" target="8" />
+      <module name="001-hello-world" target="8" />
+      <module name="001-hello-world-api" target="8" />
+      <module name="001-hello-world-provider" target="8" />
+      <module name="002-dubbo-demo-xml" target="8" />
       <module name="004-metadata" target="1.5" />
       <module name="005-Retry重试机制" target="1.7" />
       <module name="006-reactor模式" target="1.8" />
       <module name="007-antlr4-definitive-guide" target="8" />
       <module name="007-antlr4-definitive-guide (1)" target="1.5" />
-      <module name="008-dubbo" target="1.5" />
+      <module name="008-dubbo" target="8" />
       <module name="009-rxjava" target="1.5" />
       <module name="01-spring-authorization-server" target="1.8" />
       <module name="010-spring-security" target="8" />
       <module name="011-spring-security-oauth2" target="1.8" />
+      <module name="012-vertx" target="8" />
+      <module name="013-ddd" target="8" />
+      <module name="014-mybatis-plus" target="8" />
       <module name="acl_parent" target="1.8" />
       <module name="api" target="1.5" />
       <module name="api_gateway" target="1.8" />
@@ -77,6 +91,10 @@
       <module name="chapter04-a-quick-tour" target="1.5" />
       <module name="client" target="1.5" />
       <module name="common" target="1.8" />
+      <module name="custom-dubbo" target="8" />
+      <module name="dubbo-demo-xml-consumer" target="8" />
+      <module name="dubbo-demo-xml-provider" target="8" />
+      <module name="dubbo-demo-xml-provider-backend" target="1.5" />
       <module name="first-demo" target="8" />
       <module name="infrastructure" target="1.8" />
       <module name="mlcache" target="1.8" />
@@ -121,6 +139,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="014-mybatis-plus" options="-parameters" />
       <module name="api_gateway" options="-parameters" />
       <module name="service_acl" options="-parameters" />
       <module name="service_base" options="-parameters" />

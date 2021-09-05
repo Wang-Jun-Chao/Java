@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/000-dubbo-demo-interface/000-dubbo-demo-interface.iml" filepath="$PROJECT_DIR$/008-dubbo/000-dubbo-demo-interface/000-dubbo-demo-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/000-技术笔记/000-技术笔记.iml" filepath="$PROJECT_DIR$/000-技术笔记/000-技术笔记.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world.iml" filepath="$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world-api/001-hello-world-api.iml" filepath="$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world-api/001-hello-world-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world-provider/001-hello-world-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world-provider/001-hello-world-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/002-dubbo-demo-xml.iml" filepath="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/002-dubbo-demo-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/004-如何使永久（元数据）区发生溢出/004-metadata.iml" filepath="$PROJECT_DIR$/004-如何使永久（元数据）区发生溢出/004-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/005-Retry重试机制/005-Retry重试机制.iml" filepath="$PROJECT_DIR$/005-Retry重试机制/005-Retry重试机制.iml" />
       <module fileurl="file://$PROJECT_DIR$/006-reactor模式/006-reactor模式.iml" filepath="$PROJECT_DIR$/006-reactor模式/006-reactor模式.iml" />
@@ -13,23 +18,27 @@
       <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/01-spring-authorization-server/01-spring-authorization-server.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/01-spring-authorization-server/01-spring-authorization-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/010-spring-security.iml" filepath="$PROJECT_DIR$/010-spring-security/010-spring-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/011-spring-security-oauth2.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/011-spring-security-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/012-vertx/012-vertx.iml" filepath="$PROJECT_DIR$/012-vertx/012-vertx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/013-ddd/013-ddd.iml" filepath="$PROJECT_DIR$/013-ddd/013-ddd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/014-mybatis-plus/014-mybatis-plus.iml" filepath="$PROJECT_DIR$/014-mybatis-plus/014-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/acl_parent.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/acl_parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/008-dubbo/api/api.iml" filepath="$PROJECT_DIR$/008-dubbo/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/infrastructure/api_gateway/api_gateway.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/infrastructure/api_gateway/api_gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter01-meet-antrl/chapter01-meet-antrl.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter01-meet-antrl/chapter01-meet-antrl.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter03-a-starter-antrl-project/chapter03-a-starter-antrl-project.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter03-a-starter-antrl-project/chapter03-a-starter-antrl-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/chapter04-a-quick-tour.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/chapter04-a-quick-tour.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/chapter05-exploring-some-real-grammars.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/chapter05-exploring-some-real-grammars.iml" />
-      <module fileurl="file://$PROJECT_DIR$/008-dubbo/client/client.iml" filepath="$PROJECT_DIR$/008-dubbo/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/common/common.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/custom-dubbo/custom-dubbo.iml" filepath="$PROJECT_DIR$/008-dubbo/custom-dubbo/custom-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-consumer/dubbo-demo-xml-consumer.iml" filepath="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-consumer/dubbo-demo-xml-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-provider/dubbo-demo-xml-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-provider/dubbo-demo-xml-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-provider-backend/dubbo-demo-xml-provider-backend.iml" filepath="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-provider-backend/dubbo-demo-xml-provider-backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/first-demo/first-demo.iml" filepath="$PROJECT_DIR$/010-spring-security/first-demo/first-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/infrastructure/infrastructure.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/infrastructure/infrastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/01-spring-authorization-server/oauth2-auth-customer-consent-page-server/oauth2-auth-customer-consent-page-server.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/01-spring-authorization-server/oauth2-auth-customer-consent-page-server/oauth2-auth-customer-consent-page-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/01-spring-authorization-server/oauth2-auth-server/oauth2-auth-server.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/01-spring-authorization-server/oauth2-auth-server/oauth2-auth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/oauth2-client/oauth2-client.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/oauth2-client/oauth2-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/011-spring-security-oauth2/01-spring-authorization-server/oauth2-resource-server/oauth2-resource-server.iml" filepath="$PROJECT_DIR$/011-spring-security-oauth2/01-spring-authorization-server/oauth2-resource-server/oauth2-resource-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/008-dubbo/register/register.iml" filepath="$PROJECT_DIR$/008-dubbo/register/register.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section01-matching-an-arithmetic-expression-language/section01-matching-an-arithmetic-expression-language.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section01-matching-an-arithmetic-expression-language/section01-matching-an-arithmetic-expression-language.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section01-parsing-comma-separated-values/section01-parsing-comma-separated-values.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section01-parsing-comma-separated-values/section01-parsing-comma-separated-values.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section02-parsing-json/section02-parsing-json.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section02-parsing-json/section02-parsing-json.iml" />
@@ -41,7 +50,6 @@
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section04-parsing-r/section04-parsing-r.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter05-exploring-some-real-grammars/section04-parsing-r/section04-parsing-r.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section05-01-island-rammars-dealing-with-different-formats-in-the-same-file/section05-01-island-rammars-dealing-with-different-formats-in-the-same-file.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section05-01-island-rammars-dealing-with-different-formats-in-the-same-file/section05-01-island-rammars-dealing-with-different-formats-in-the-same-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section05-02-rewriting-the-input-stream/section05-02-rewriting-the-input-stream.iml" filepath="$PROJECT_DIR$/007-antlr4-definitive-guide/chapter04-a-quick-tour/section05-02-rewriting-the-input-stream/section05-02-rewriting-the-input-stream.iml" />
-      <module fileurl="file://$PROJECT_DIR$/008-dubbo/server/server.iml" filepath="$PROJECT_DIR$/008-dubbo/server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/service/service.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/service/service_acl/service_acl.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/service/service_acl/service_acl.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/acl_parent/common/service_base/service_base.iml" filepath="$PROJECT_DIR$/010-spring-security/acl_parent/common/service_base/service_base.iml" />

@@ -39,6 +39,11 @@
         <option value="$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-distributed/spring-security-oauth2-distributed-uaa/pom.xml" />
         <option value="$PROJECT_DIR$/011-spring-security-oauth2/spring-security-oauth2-distributed-rsa/pom.xml" />
         <option value="$PROJECT_DIR$/011-spring-security-oauth2/01-spring-authorization-server/oauth2-auth-customer-consent-page-server/pom.xml" />
+        <option value="$PROJECT_DIR$/012-vertx/pom.xml" />
+        <option value="$PROJECT_DIR$/013-ddd/pom.xml" />
+        <option value="$PROJECT_DIR$/014-mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/008-dubbo/000-dubbo-demo-interface/pom.xml" />
       </list>
     </option>
   </component>

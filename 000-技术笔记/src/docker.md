@@ -257,9 +257,30 @@ bladex/sentinel-dashboard:1.8.0
 
 
 
+# Zookeeper部署
 
+[Zookeeper——Docker下安装部署 - 曹伟雄 - 博客园 (cnblogs.com)](https://www.cnblogs.com/caoweixiong/p/12325410.html)
 
+```sh
+# 拉取镜像
+docker pull zookeeper
+# 创建data目录，用于挂载容器中的数据目录
+cd /home/ubuntu/docker && mkdir - p zookeeper/data
 
+# 启动镜像
+docker run -d -e TZ="Asia/Shanghai" -p 2181:2181 -v /home/ubuntu/docker/zookeeper/data:/data --name zookeeper --restart always zookeeper
+```
+
+- **命令详细说明：**
+
+```
+-e TZ="Asia/Shanghai" # 指定上海时区 
+-d # 表示在一直在后台运行容器
+-p 2181:2181 # 对端口进行映射，将本地2181端口映射到容器内部的2181端口
+--name # 设置创建的容器名称
+-v # 将本地目录(文件)挂载到容器指定目录；
+--restart always #始终重新启动zookeeper
+```
 
 
 

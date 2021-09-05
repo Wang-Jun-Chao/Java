@@ -1,0 +1,1 @@
+protoc hello-world-service.proto --java_out=../java/
