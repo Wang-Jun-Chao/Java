@@ -44,7 +44,13 @@
         <option value="$PROJECT_DIR$/014-mybatis-plus/pom.xml" />
         <option value="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/pom.xml" />
         <option value="$PROJECT_DIR$/008-dubbo/000-dubbo-demo-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/008-dubbo/003-dubbo-demo-annotation/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-provider-backend/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

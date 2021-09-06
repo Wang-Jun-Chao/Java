@@ -47,13 +47,14 @@
         <module name="chapter03-a-starter-antrl-project" />
         <module name="spring-security-oauth2-distributed-order" />
         <module name="oauth2-client" />
+        <module name="dubbo-demo-annotation-consumer" />
         <module name="spring-security-oauth2-distributed-gateway" />
         <module name="section04-parsing-r" />
         <module name="service_base" />
         <module name="spring-security-oauth2-distributed-rsa-uaa" />
         <module name="004-metadata" />
         <module name="oauth2-auth-server" />
-        <module name="dubbo-demo-xml-provider-backend" />
+        <module name="dubbo-demo-annotation-provider" />
         <module name="spring-security-oauth2-independent-uaa" />
         <module name="006-reactor模式" />
       </profile>
@@ -70,6 +71,7 @@
       <module name="001-hello-world-api" target="8" />
       <module name="001-hello-world-provider" target="8" />
       <module name="002-dubbo-demo-xml" target="8" />
+      <module name="003-dubbo-demo-annotation" target="8" />
       <module name="004-metadata" target="1.5" />
       <module name="005-Retry重试机制" target="1.7" />
       <module name="006-reactor模式" target="1.8" />
@@ -92,6 +94,8 @@
       <module name="client" target="1.5" />
       <module name="common" target="1.8" />
       <module name="custom-dubbo" target="8" />
+      <module name="dubbo-demo-annotation-consumer" target="8" />
+      <module name="dubbo-demo-annotation-provider" target="8" />
       <module name="dubbo-demo-xml-consumer" target="8" />
       <module name="dubbo-demo-xml-provider" target="8" />
       <module name="dubbo-demo-xml-provider-backend" target="1.5" />
