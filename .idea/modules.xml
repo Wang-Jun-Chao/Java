@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/000-dubbo-demo-interface/000-dubbo-demo-interface.iml" filepath="$PROJECT_DIR$/008-dubbo/000-dubbo-demo-interface/000-dubbo-demo-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/000-技术笔记/000-技术笔记.iml" filepath="$PROJECT_DIR$/000-技术笔记/000-技术笔记.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/001-dubbo-demo-api.iml" filepath="$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/001-dubbo-demo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world.iml" filepath="$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world-api/001-hello-world-api.iml" filepath="$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world-api/001-hello-world-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world-provider/001-hello-world-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world-provider/001-hello-world-provider.iml" />
@@ -33,6 +34,8 @@
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/custom-dubbo/custom-dubbo.iml" filepath="$PROJECT_DIR$/008-dubbo/custom-dubbo/custom-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/003-dubbo-demo-annotation/dubbo-demo-annotation-consumer/dubbo-demo-annotation-consumer.iml" filepath="$PROJECT_DIR$/008-dubbo/003-dubbo-demo-annotation/dubbo-demo-annotation-consumer/dubbo-demo-annotation-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/003-dubbo-demo-annotation/dubbo-demo-annotation-provider/dubbo-demo-annotation-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/003-dubbo-demo-annotation/dubbo-demo-annotation-provider/dubbo-demo-annotation-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/dubbo-demo-api-consumer/dubbo-demo-api-consumer.iml" filepath="$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/dubbo-demo-api-consumer/dubbo-demo-api-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/dubbo-demo-api-provider/dubbo-demo-api-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/dubbo-demo-api-provider/dubbo-demo-api-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-consumer/dubbo-demo-xml-consumer.iml" filepath="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-consumer/dubbo-demo-xml-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-provider/dubbo-demo-xml-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-provider/dubbo-demo-xml-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/first-demo/first-demo.iml" filepath="$PROJECT_DIR$/010-spring-security/first-demo/first-demo.iml" />

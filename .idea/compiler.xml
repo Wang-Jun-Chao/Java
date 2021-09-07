@@ -43,11 +43,13 @@
         <module name="dubbo-demo-xml-provider" />
         <module name="dubbo-demo-xml-consumer" />
         <module name="oauth2-resource-server" />
+        <module name="dubbo-demo-api-consumer" />
         <module name="spring-security-oauth2-independent-jwt-uaa" />
         <module name="chapter03-a-starter-antrl-project" />
         <module name="spring-security-oauth2-distributed-order" />
         <module name="oauth2-client" />
         <module name="dubbo-demo-annotation-consumer" />
+        <module name="dubbo-demo-api-provider" />
         <module name="spring-security-oauth2-distributed-gateway" />
         <module name="section04-parsing-r" />
         <module name="service_base" />
@@ -67,6 +69,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="000-dubbo-demo-interface" target="8" />
+      <module name="001-dubbo-demo-api" target="8" />
       <module name="001-hello-world" target="8" />
       <module name="001-hello-world-api" target="8" />
       <module name="001-hello-world-provider" target="8" />
@@ -96,6 +99,8 @@
       <module name="custom-dubbo" target="8" />
       <module name="dubbo-demo-annotation-consumer" target="8" />
       <module name="dubbo-demo-annotation-provider" target="8" />
+      <module name="dubbo-demo-api-consumer" target="8" />
+      <module name="dubbo-demo-api-provider" target="8" />
       <module name="dubbo-demo-xml-consumer" target="8" />
       <module name="dubbo-demo-xml-provider" target="8" />
       <module name="dubbo-demo-xml-provider-backend" target="1.5" />
