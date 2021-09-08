@@ -1,4 +1,4 @@
-package wjc.dubbo.d001.api.provider;
+package wjc.dubbo.d004.genericcall.provider;
 
 import org.apache.dubbo.config.ApplicationConfig;
 import org.apache.dubbo.config.MetadataReportConfig;
@@ -9,7 +9,7 @@ import wjc.dubbo.demo.api.DemoService;
 
 import java.util.concurrent.CountDownLatch;
 
-public class Application {
+public class GenericCallProviderApplication {
     public static void main(String[] args) throws Exception {
         if (isClassic(args)) {
             startWithExport();
@@ -28,7 +28,7 @@ public class Application {
         service.setRef(new DemoServiceImpl());
 
         DubboBootstrap bootstrap = DubboBootstrap.getInstance();
-        bootstrap.application(new ApplicationConfig("dubbo-demo-api-provider"))
+        bootstrap.application(new ApplicationConfig("dubbo-demo-generic-call-provider"))
                 .registry(new RegistryConfig("zookeeper://192.168.241.129:2181"))
                 .service(service)
                 .start()
@@ -39,7 +39,7 @@ public class Application {
         ServiceConfig<DemoServiceImpl> service = new ServiceConfig<>();
         service.setInterface(DemoService.class);
         service.setRef(new DemoServiceImpl());
-        service.setApplication(new ApplicationConfig("dubbo-demo-api-provider"));
+        service.setApplication(new ApplicationConfig("dubbo-demo-generic-call-provider"));
         service.setRegistry(new RegistryConfig("zookeeper://192.168.241.129:2181"));
         service.setMetadataReportConfig(new MetadataReportConfig("zookeeper://192.168.241.129:2181"));
         service.export();

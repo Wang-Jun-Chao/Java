@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/008-dubbo/000-dubbo-demo-interface/pom.xml" />
         <option value="$PROJECT_DIR$/008-dubbo/003-dubbo-demo-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/008-dubbo/004-dubbo-demo-generic-call/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -38,12 +38,14 @@
         <module name="013-ddd" />
         <module name="custom-dubbo" />
         <module name="section01-parsing-comma-separated-values" />
+        <module name="dubbo-demo-generic-call-provider" />
         <module name="spring-security-oauth2-independent-order" />
         <module name="section03-building-a-translator-with-a-listener" />
         <module name="dubbo-demo-xml-provider" />
         <module name="dubbo-demo-xml-consumer" />
         <module name="oauth2-resource-server" />
         <module name="dubbo-demo-api-consumer" />
+        <module name="dubbo-demo-generic-call-consumer" />
         <module name="spring-security-oauth2-independent-jwt-uaa" />
         <module name="chapter03-a-starter-antrl-project" />
         <module name="spring-security-oauth2-distributed-order" />
@@ -75,6 +77,7 @@
       <module name="001-hello-world-provider" target="8" />
       <module name="002-dubbo-demo-xml" target="8" />
       <module name="003-dubbo-demo-annotation" target="8" />
+      <module name="004-dubbo-demo-generic-call" target="8" />
       <module name="004-metadata" target="1.5" />
       <module name="005-Retry重试机制" target="1.7" />
       <module name="006-reactor模式" target="1.8" />
@@ -101,6 +104,8 @@
       <module name="dubbo-demo-annotation-provider" target="8" />
       <module name="dubbo-demo-api-consumer" target="8" />
       <module name="dubbo-demo-api-provider" target="8" />
+      <module name="dubbo-demo-generic-call-consumer" target="8" />
+      <module name="dubbo-demo-generic-call-provider" target="8" />
       <module name="dubbo-demo-xml-consumer" target="8" />
       <module name="dubbo-demo-xml-provider" target="8" />
       <module name="dubbo-demo-xml-provider-backend" target="1.5" />

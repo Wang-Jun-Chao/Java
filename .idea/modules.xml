@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world-provider/001-hello-world-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/001-hello-world/001-hello-world-provider/001-hello-world-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/002-dubbo-demo-xml.iml" filepath="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/002-dubbo-demo-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/003-dubbo-demo-annotation/003-dubbo-demo-annotation.iml" filepath="$PROJECT_DIR$/008-dubbo/003-dubbo-demo-annotation/003-dubbo-demo-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/004-dubbo-demo-generic-call/004-dubbo-demo-generic-call.iml" filepath="$PROJECT_DIR$/008-dubbo/004-dubbo-demo-generic-call/004-dubbo-demo-generic-call.iml" />
       <module fileurl="file://$PROJECT_DIR$/004-如何使永久（元数据）区发生溢出/004-metadata.iml" filepath="$PROJECT_DIR$/004-如何使永久（元数据）区发生溢出/004-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/005-Retry重试机制/005-Retry重试机制.iml" filepath="$PROJECT_DIR$/005-Retry重试机制/005-Retry重试机制.iml" />
       <module fileurl="file://$PROJECT_DIR$/006-reactor模式/006-reactor模式.iml" filepath="$PROJECT_DIR$/006-reactor模式/006-reactor模式.iml" />
@@ -36,6 +37,8 @@
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/003-dubbo-demo-annotation/dubbo-demo-annotation-provider/dubbo-demo-annotation-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/003-dubbo-demo-annotation/dubbo-demo-annotation-provider/dubbo-demo-annotation-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/dubbo-demo-api-consumer/dubbo-demo-api-consumer.iml" filepath="$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/dubbo-demo-api-consumer/dubbo-demo-api-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/dubbo-demo-api-provider/dubbo-demo-api-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/001-dubbo-demo-api/dubbo-demo-api-provider/dubbo-demo-api-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/004-dubbo-demo-generic-call/dubbo-demo-generic-call-consumer/dubbo-demo-generic-call-consumer.iml" filepath="$PROJECT_DIR$/008-dubbo/004-dubbo-demo-generic-call/dubbo-demo-generic-call-consumer/dubbo-demo-generic-call-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-dubbo/004-dubbo-demo-generic-call/dubbo-demo-generic-call-provider/dubbo-demo-generic-call-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/004-dubbo-demo-generic-call/dubbo-demo-generic-call-provider/dubbo-demo-generic-call-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-consumer/dubbo-demo-xml-consumer.iml" filepath="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-consumer/dubbo-demo-xml-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-provider/dubbo-demo-xml-provider.iml" filepath="$PROJECT_DIR$/008-dubbo/002-dubbo-demo-xml/dubbo-demo-xml-provider/dubbo-demo-xml-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-spring-security/first-demo/first-demo.iml" filepath="$PROJECT_DIR$/010-spring-security/first-demo/first-demo.iml" />
