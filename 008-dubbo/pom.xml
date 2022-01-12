@@ -14,7 +14,7 @@
     </modules>
 
     <properties>
-        <dubbo.version>3.0.2.1</dubbo.version>
+        <dubbo.version>3.0.5</dubbo.version>
         <logback.version>1.2.5</logback.version>
         <slf4j.version>1.7.32</slf4j.version>
         <nacos.version>2.0.3</nacos.version>
